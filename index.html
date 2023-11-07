@@ -4,100 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Таблица данных</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Таблица данных</h1>
-    <hr>
-    <p><strong>Табли́ца</strong> (из лат. tabula — доска) — способ <em>структурирования</em> данных. 
-    Представляет собой распределение данных по однотипным строкам и столбцам (графам).
-    Таблицы широко используются в различных исследованиях и <em>анализе</em> данных. 
-    Таблицы также встречаются в СМИ, в рукописных материалах, в компьютерных программах 
-    и в дорожных знаках,а также в составлении спортивных таблиц.
-    </p>
-    <hr>
-    <h3>Таблица может послужить для:</h3>
-    <ul>
-        <li>Систематизации данных</li>
-        <li>Анализа</li>
-        <li>Подсчета статистики</li>
-        <li>Наглядного представления данных</li>
-    </ul>
-    <h3>Примеры таблиц:</h3>
-    <table border="1">
-    <caption>Стажеры: </caption>
-        <tr>
-            <th>№</th>
-            <th>Фамилия</th>
-            <th>Имя</th>
-            <th>Возраст</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Пономарев</td>
-            <td>Роман</td>
-            <td>20</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Минаев</td>
-            <td>Максим</td>
-            <td>20</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Бибиков</td>
-            <td>Кирилл</td>
-            <td>20</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Михайлов</td>
-            <td>Александр</td>
-            <td>20</td>
-        </tr>
-    </table>
+    <div class="card bg-yellow">
+        <h1>Таблица данных</h1>
+        <p><strong>Табли́ца</strong> (из лат. tabula — доска) — способ структурирования данных. 
+        Представляет собой распределение данных по однотипным строкам и столбцам (графам).
+        Таблицы широко используются в различных исследованиях и анализе данных. 
+        Таблицы также встречаются в СМИ, в рукописных материалах, в компьютерных программах 
+        и в дорожных знаках,а также в составлении спортивных таблиц.
+        </p>
+    </div>
+    <div class="card bg-green">
+        <h3>Таблица может послужить для:</h3>
+        <ul>
+            <li>Систематизации данных</li>
+            <li>Анализа</li>
+            <li>Подсчета статистики</li>
+            <li>Наглядного представления данных</li>
+        </ul>
+        <h3>Примеры таблиц:</h3>
+        <table border="1">
+        <caption>Стажеры: </caption>
+            <tr>
+                <th>№</th>
+                <th>Фамилия</th>
+                <th>Имя</th>
+                <th>Возраст</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Пономарев</td>
+                <td>Роман</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Минаев</td>
+                <td>Максим</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Бибиков</td>
+                <td>Кирилл</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Михайлов</td>
+                <td>Александр</td>
+                <td>20</td>
+            </tr>
+        </table>
+    </div>
     <br>
-    <img src="https://desktop.arcgis.com/ru/arcmap/latest/manage-data/tables/GUID-E9C5D05E-5D42-4078-8E86-57BAD0FD5FC8-web.png" alt="здесь была таблица :(" width="350">
-    <hr>
+    <img src="https://desktop.arcgis.com/ru/arcmap/latest/manage-data/tables/GUID-E9C5D05E-5D42-4078-8E86-57BAD0FD5FC8-web.png"
+     alt="здесь была таблица :(" class="tabl"/>
+     <div class="card bg-green">
     <h2>Источники:</h2>
-    <ol>
-        <li><a href="https://ru.wikipedia.org/wiki/Таблица" target="_blank">Wikipedia</a></li>
-        <li><a href="https://foxford.ru/wiki/informatika/dlya-chego-nuzhna-tablica" target="_blank">Foxford</a></li>
-    </ol>
-    <hr>
+
+        <a href="https://ru.wikipedia.org/wiki/Таблица" target="_blank">Wikipedia</a>
+        |
+        <a href="https://foxford.ru/wiki/informatika/dlya-chego-nuzhna-tablica" target="_blank">Foxford</a>
+    </div>
+    <div class="card bg-green">
     <h2>Реф:</h2>
     <ul>
         <li><a href="ref.html" target="_blank">Страница с рефом</a></li>
     </ul>
-    <hr>
-    <h2>Обратная связь:</h2>
-    <form action="#" method="POST">
-        <label>
-            Ваше имя:
-            <input type="text" id="name" name="name" placeholder="Введите имя..." required>
-        </label>
-        <br>
-        <label>
-            Ваш Email:
-            <input type="email" id="email" name="email" placeholder="Введите Email...:">
-        </label>
-        <br>
-        <label>
-            Сколько вам лет?
-            <input type="number" id="age" name="age" placeholder="Введите возраст..." required>
-        </label>
-        <br>
-        <label>
-            Ваше сообщение:
+    </div>
+    <div class="card bg-yellow">
+        <h2>Обратная связь:</h2>
+        <form action="#" method="POST">
+            <label>
+                Ваше имя:
+                <input type="text" id="name" name="name" placeholder="Введите имя..." required>
+            </label>
             <br>
-            <textarea name="text" id="text" cols="30" rows="10"></textarea>
+            <label>
+                Ваш Email:
+                <input type="email" id="email" name="email" placeholder="Введите Email...:">
+            </label>
             <br>
-            Ehf?
-            <input type="checkbox" id="baby" name="baby">
-        </label>
-        <button type="submit">Отправить</button>
-    </form>
-    <hr>
+            <label>
+                Сколько вам лет?
+                <input type="number" id="age" name="age" placeholder="Введите возраст..." required>
+            </label>
+            <br>
+            <label>
+                Ваше сообщение:
+                <br>
+                <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                <br>
+                Ehf?
+                <input type="checkbox" id="baby" name="baby">
+            </label>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
     <br>
+    <div style="margin-bottom: 1500px;"></div>
 </body>
 </html>
