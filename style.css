@@ -38,6 +38,7 @@ h2 {
 }
 
 .tabl {
+    widht: 350px;
     margin-top: 20px;
     border-radius: 4px;
     box-shadow: 4px 4px 15px rgb(112, 112, 112);
