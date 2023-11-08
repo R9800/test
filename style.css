@@ -37,11 +37,32 @@ h2 {
     background: #ffe5e5;
 }
 
+.tabl {
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 15px rgb(112, 112, 112);
+}
 
 .card {
-    padding: 15px 20px;
+    padding: 5px 20px;
     margin-bottom: 20px;
     border-radius: 20px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: rgb(0, 0, 0);
+}
+
+.table {
+    width: 98%;
+    float: left;
+    border: 2px solid grey;
+    
+    
 }
 /*
 .tabl {
